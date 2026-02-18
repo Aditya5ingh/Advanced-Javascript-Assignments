@@ -82,7 +82,7 @@
     "createWindowAggregatorPromise": "npx jest ./tests/createWindowAggregatorPromise.test.js",
     "deepClone": "npx jest ./tests/deepClone.test.js",
     "monitorPromise": "npx jest ./tests/monitorPromise.test.js",
-    "PriorityQueueExecutor" : "npx jest ./tests/PriorityQueueExecutor.test.js",
+    "PriorityQueueExecutor": "npx jest ./tests/PriorityQueueExecutor.test.js",
     "raceWithMetadata": "npx jest ./tests/raceWithMetadata.test.js",
     "resolveDependencies": "npx jest ./tests/resolveDependencies.test.js",
     "swrCache": "npx jest ./tests/swrCache.test.js",
@@ -109,7 +109,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jest": "^29.7.0"
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100xdevs-bootcamp-1/Advanced-Javascript-Assignments.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/100xdevs-bootcamp-1/Advanced-Javascript-Assignments/issues"
+  },
+  "homepage": "https://github.com/100xdevs-bootcamp-1/Advanced-Javascript-Assignments#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
   }
 }
